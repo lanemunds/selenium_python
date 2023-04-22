@@ -1,0 +1,126 @@
+[1682182819.761][INFO]: Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 57550
+[1682182819.761][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1682182820.041][INFO]: [5fbfecff083edc711ed4fbf26bdf3858] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1682182820.046][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1682182820.046][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1682182820.048][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/wj/lrz6xkdj5y160810lwlg6dbc0000gn/T/.com.google.Chrome.3rFYm8 data:,
+[1682182821.752][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1682182821.821][INFO]: [5fbfecff083edc711ed4fbf26bdf3858] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "112.0.5615.137",
+      "chrome": {
+         "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
+         "userDataDir": "/var/folders/wj/lrz6xkdj5y160810lwlg6dbc0000gn/T/.com.google.Chrome.3rFYm8"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57559"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5fbfecff083edc711ed4fbf26bdf3858"
+}
+[1682182821.842][INFO]: [5fbfecff083edc711ed4fbf26bdf3858] COMMAND Navigate {
+   "url": "espn.com"
+}
+[1682182821.857][INFO]: Waiting for pending navigations...
+[1682182821.861][INFO]: Done waiting for pending navigations. Status: ok
+[1682182821.899][INFO]: Waiting for pending navigations...
+[1682182821.917][INFO]: Done waiting for pending navigations. Status: ok
+[1682182821.936][INFO]: [5fbfecff083edc711ed4fbf26bdf3858] RESPONSE Navigate ERROR invalid argument
+  (Session info: chrome=112.0.5615.137)
+[1682182821.967][INFO]: [5fbfecff083edc711ed4fbf26bdf3858] COMMAND QuitAll {
+}
+[1682182822.029][INFO]: [5fbfecff083edc711ed4fbf26bdf3858] RESPONSE QuitAll
